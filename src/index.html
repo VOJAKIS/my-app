@@ -1,53 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>ESK8 Calculator</title>
-    <link rel="stylesheet" href="index.css">
-
-  </head>
-  <body>
-    <!-- <h1>💖 Hello World!</h1>
-      <p>Welcome to your Electron application.</p> -->
-      <h1>ESK8 Calculator</h1>
-      <div class="box">
-        <div class="center">
-          <div class="half">
-            <label>Cell Quantity (3S-12S)</label>
-            <input class="center input">
-          </div>
-          <div class="half">
-            <label>Motor KV</label>
-            <input class="center input">
-          </div>
-          <div class="half">
-            <label>Motor Efficiency (%)</label>
-            <input class="center input">
-          </div>
-          <div class="half">
-            <label>Motor Pulley Teeth</label>
-            <input class="center input">
-          </div>
-          <div class="half">
-            <label>Wheel Pulley Teeth</label>
-            <input class="center input">
-          </div>
-          <div class="half">
-            <label>Wheel size (mm)</label>
-            <input class="center input">
-          </div>
-          <br>
-          <div class="half">
-            <span>Top Speed:</span>
-            <p id="top-speed"></p>
-            <br>
-            <span>Top speed (weighted):</span>
-            <p id="top-speed_w"></p>
-          </div>
-        </div>
-      </div>
-      <canvas id="wheel" width="256" height="256"></canvas>
-      <script src="calculator.js"></script>
-    </body>
-    </html>
-    
+<head>
+	<meta charset="UTF-8">
+	<title>ESK8 Calculator</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+		<!-- <h1>💖 Hello World!</h1>
+		<p>Welcome to your Electron application.</p> -->
+		<h1>ESK8 Calculator</h1>
+		<div class="box">
+		<div class="center">
+		  <div class="half">
+			<label>Cell Quantity (3S-12S)</label>
+			<input class="center input">
+		  </div>
+		  <div class="half">
+			<label>Motor KV</label>
+			<input class="center input">
+		  </div>
+		  <div class="half">
+			<label>Motor Efficiency (%)</label>
+			<input class="center input">
+		  </div>
+		  <div class="half">
+			<label>Motor Pulley Teeth</label>
+			<input class="center input">
+		  </div>
+		  <div class="half">
+			<label>Wheel Pulley Teeth</label>
+			<input class="center input">
+		  </div>
+		  <div class="half">
+			<label>Wheel size (mm)</label>
+			<input class="center input">
+		  </div>
+		  <br>
+		  <div class="half">
+			<span>Top Speed:</span>
+			<p id="top-speed"></p>
+			<br>
+			<span>Top speed (weighted):</span>
+			<p id="top-speed_w"></p>
+		  </div>
+		</div>
+		</div>
+		<img id="imgwheel" src="./images/wheel-100x100.png" style="display:none;">
+		<canvas id="wheel" width="256" height="256"></canvas>
+		<script defer src="calculator.js"></script>
+</body>
+</html>
